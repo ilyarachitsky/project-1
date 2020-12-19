@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
-
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #e5e6ed;
-
 }
 
 .logo {
@@ -32,7 +29,6 @@ body {
 .nav__links li a {
     transition: all 0.3s ease 0s;
     font-size: 20px;
-
 }
 
 .nav__links li a:hover {
@@ -48,8 +44,9 @@ button {
     transition: all 0.3s ease 0s;
 }
 
-
-.nav__links li, a, button {
+.nav__links li,
+a,
+button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -67,8 +64,6 @@ header {
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
-
-
 
 .box {
     width: 30%;
@@ -93,12 +88,13 @@ button:hover {
 }
 
 .line {
-    border-bottom: 1px solid black; 
-    margin-bottom: 20px;/* Параметры линии */
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    /* Параметры линии */
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
-   }
+}
 
 .maintitle {
     text-align: center;
@@ -106,7 +102,6 @@ button:hover {
     padding: 0;
     margin-top: 30px;
     margin-bottom: 3px;
-
 }
 
 .video-container {
@@ -121,16 +116,12 @@ button:hover {
 .mainText {
     margin: 30px 30px 30px 30px;
     font-size: 20px;
-
 }
 
 .mainText-2 {
     margin: 30px 30px 130px 30px;
     font-size: 20px;
-
-
 }
-
 
 .footer {
     background: rgb(45, 45, 45);
@@ -164,13 +155,9 @@ button:hover {
     margin-left: 30px;
 }
 
-
 .footer .footerContent .links {
     margin-left: 30px;
 }
-
-
-
 
 .footer .footerContent .about .socials a {
     margin-top: 10px;
@@ -191,10 +178,7 @@ button:hover {
     border: 1px solid purple;
     color: purple;
     transition: all .3s;
-    
 }
-
-
 
 .footer .footerContent .links ul a {
     margin-left: 20px;
@@ -202,15 +186,12 @@ button:hover {
     display: block;
     margin-bottom: 0;
     font-size: 1.2em;
-
 }
 
-
-.footer .footerContent .pic .logo-2  {
+.footer .footerContent .pic .logo-2 {
     margin: 50px;
     margin-left: 180px;
 }
-
 
 .footer .footerBottom {
     background: rgb(53, 53, 53);
@@ -223,5 +204,27 @@ button:hover {
     bottom: 0px;
     left: 0px;
     padding-top: 20px;
+}
 
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.athletes h1 {
+    text-align: left;
+    font-size: 40px;
+}
+
+.athletes img {
+    width: 300px;
+    position: relative;
+    padding: 5px;
+    float: left;
+    margin-right: 10px;
+}
+
+.athletes p {
+    font-size: 20px;
+    overflow: auto;
 }
