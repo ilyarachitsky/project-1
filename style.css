@@ -224,33 +224,33 @@ button:hover {
     overflow: auto;
 }
      /*contact page*/
-h1 {
+#h1-cont h1 {
     text-align: center;
     background-color: purple;
-  }
+    color: white;
+}
   
-  .contact-cont {
+.contact-cont {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
-  }
+}
   
-  .contact-form {
+.contact-form {
     margin: 20px;
-  }
+}
   
-  form {
+form {
     display: flex;
     flex-direction: column;
-  }
-  
-  .messagebox {
+}
+.messagebox {
     margin: 12px 0px 12px 0px;
-  }
+}
   
-  input[type="submit"] {
+input[type="submit"] {
     margin-top: 10px;
     border-radius: 5px;
     height: 69px;
@@ -259,21 +259,21 @@ h1 {
     font-size: x-large;
     border-radius: 17px;
     
-  }
-  input[type="text"],
+}
+input[type="text"],
   textarea {
     padding: 12px;
     border: 2px solid rgba(0, 136, 169, 0.8);
     border-radius: 17px;
     resize: vertical;
     min-width: 220px;
-  }
+}
   
-  input[type="submit"]:hover {
+input[type="submit"]:hover {
     background-color: rgba(0, 136, 169, 0.8);
     color: white;
-  }
+}
   
-  #message {
+#message {
     height: 150px;
-  }
+}
