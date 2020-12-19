@@ -260,20 +260,24 @@ input[type="submit"] {
     border-radius: 17px;
     
 }
-input[type="text"],
-  textarea {
+input[type="text"], textarea {
     padding: 12px;
     border: 2px solid rgba(0, 136, 169, 0.8);
     border-radius: 17px;
     resize: vertical;
     min-width: 220px;
+    width: 300px;
 }
   
-input[type="submit"]:hover {
+.messagebox:hover, input[type="text"]:hover, input[type="submit"]:hover {
     background-color: rgba(0, 136, 169, 0.8);
     color: white;
+    box-shadow: 0 0 25px rgba(0, 136, 169, 0.8);
 }
   
 #message {
     height: 150px;
 }
+.messagebox:focus, input[type="text"]:focus, input[type="submit"]:focus {
+    outline: none;
+ }
