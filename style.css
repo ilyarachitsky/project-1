@@ -44,9 +44,7 @@ button {
     transition: all 0.3s ease 0s;
 }
 
-.nav__links li,
-a,
-button {
+.nav__links li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -223,3 +221,57 @@ button:hover {
     font-size: 20px;
     overflow: auto;
 }
+     /*contact page*/
+h1 {
+    text-align: center;
+    background-color: purple;
+  }
+  
+  .contact-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+  }
+  
+  .contact-form {
+    margin: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .messagebox {
+    margin: 12px 0px 12px 0px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 69px;
+    background-color: rgb(203, 118, 245);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    border-radius: 17px;
+    
+  }
+  input[type="text"],
+  textarea {
+    padding: 12px;
+    border: 2px solid rgba(0, 136, 169, 0.8);
+    border-radius: 17px;
+    resize: vertical;
+    min-width: 220px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+    color: white;
+  }
+  
+  #message {
+    height: 150px;
+  }
