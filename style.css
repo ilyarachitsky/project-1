@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 body {
     box-sizing: border-box;
     margin: 0;
@@ -171,13 +171,13 @@ button:hover {
     display: inline-block;
     font-size: 1.3em;
     border-radius: 5px;
-    transition: all .3s;
+    transition: all 0.3s;
 }
 
 .footer .footerContent .about .socials a:hover {
     border: 1px solid purple;
     color: purple;
-    transition: all .3s;
+    transition: all 0.3s;
 }
 
 .footer .footerContent .links ul a {
@@ -206,61 +206,95 @@ button:hover {
     padding-top: 20px;
 }
 
+
+/*athletes page*/
+
 .athletes h1 {
-    text-align: left;
+    text-align: center;
     font-size: 40px;
 }
 
 .athletes img {
-    width: 300px;
+    width: 600px;
     position: relative;
     padding: 5px;
     float: left;
-    margin-right: 10px;
+    margin-right: 50px;
+    margin-left: 300px;
+    margin-bottom: 20px;
 }
 
-.athletes p {
-    font-size: 20px;
-    overflow: auto;
+.athletes table {
+    font-size: 40px;
+    border: 1px solid red;
+    width: 35%;
 }
-     /*contact page*/
+
+.athletes td {
+    border: 1px solid red;
+    padding: 3.5px;
+}
+
+.athletes .video-box iframe {
+    float: left;
+    width: 33%;
+    padding-left: 300px;
+    padding-right: 50px;
+}
+
+#athletestext {
+    font-size: 25px;
+    text-align: left;
+    padding-right: 150px;
+    padding-bottom: 30px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*contact page*/
+
 #h1-cont h1 {
     text-align: center;
     background-color: purple;
     color: white;
 }
-  
+
 .contact-cont {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: x-large;
 }
-  
+
 .contact-form {
     margin: 20px;
 }
-  
+
 form {
     display: flex;
     flex-direction: column;
 }
+
 .messagebox {
     margin: 12px 0px 12px 0px;
 }
-  
+
 input[type="submit"] {
     margin-top: 10px;
     border-radius: 5px;
     height: 69px;
     background-color: rgb(203, 118, 245);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: x-large;
     border-radius: 17px;
-    
 }
-input[type="text"], textarea {
+
+input[type="text"],
+textarea {
     padding: 12px;
     border: 2px solid rgba(0, 136, 169, 0.8);
     border-radius: 17px;
@@ -268,16 +302,21 @@ input[type="text"], textarea {
     min-width: 220px;
     width: 300px;
 }
-  
-.messagebox:hover, input[type="text"]:hover, input[type="submit"]:hover {
+
+.messagebox:hover,
+input[type="text"]:hover,
+input[type="submit"]:hover {
     background-color: rgba(0, 136, 169, 0.8);
     color: white;
     box-shadow: 0 0 25px rgba(0, 136, 169, 0.8);
 }
-  
+
 #message {
     height: 150px;
 }
-.messagebox:focus, input[type="text"]:focus, input[type="submit"]:focus {
+
+.messagebox:focus,
+input[type="text"]:focus,
+input[type="submit"]:focus {
     outline: none;
- }
+}
