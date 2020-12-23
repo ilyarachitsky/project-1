@@ -98,9 +98,9 @@ button:hover {
 
 .maintitle {
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
     padding: 0;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 3px;
 }
 
@@ -211,7 +211,7 @@ button:hover {
 
 .athletes h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 70px;
 }
 
 .athletes img {
@@ -219,27 +219,28 @@ button:hover {
     position: relative;
     padding: 5px;
     float: left;
-    margin-right: 50px;
-    margin-left: 300px;
-    margin-bottom: 20px;
+    margin-right: 80px;
+    margin-left: 260px;
+    margin-bottom: 90px;
 }
 
 .athletes table {
-    font-size: 40px;
+    font-size: 20px;
     border: 1px solid red;
     width: 35%;
+    text-align: center;
 }
 
 .athletes td {
     border: 1px solid red;
-    padding: 3.5px;
+    padding: 15px;
 }
 
 .athletes .video-box iframe {
     float: left;
     width: 33%;
-    padding-left: 300px;
-    padding-right: 50px;
+    padding-left: 260px;
+    padding-right: 80px;
 }
 
 #athletestext {
@@ -247,10 +248,19 @@ button:hover {
     text-align: left;
     padding-right: 150px;
     padding-bottom: 30px;
+    padding-top: 30px
 }
 
 .clear {
     clear: both;
+}
+
+img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30%;
+    width: 150px;
+    padding-left: 40px;
 }
 
 
