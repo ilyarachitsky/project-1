@@ -209,63 +209,6 @@ button:hover {
 }
 
 
-/*athletes page*/
-
-.athletes h1 {
-    text-align: center;
-    font-size: 70px;
-}
-
-.athletes img {
-    width: 600px;
-    position: relative;
-    padding: 5px;
-    float: left;
-    margin-right: 80px;
-    margin-left: 260px;
-    margin-bottom: 90px;
-}
-
-.athletes table {
-    font-size: 20px;
-    border: 1px solid red;
-    width: 35%;
-    text-align: center;
-}
-
-.athletes td {
-    border: 1px solid red;
-    padding: 15px;
-}
-
-.athletes .video-box iframe {
-    float: left;
-    width: 33%;
-    padding-left: 260px;
-    padding-right: 80px;
-}
-
-#athletestext {
-    font-size: 25px;
-    text-align: left;
-    padding-right: 150px;
-    padding-bottom: 30px;
-    padding-top: 30px
-}
-
-.clear {
-    clear: both;
-}
-
-img.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 30%;
-    width: 150px;
-    padding-left: 40px;
-}
-
-
 /*contact page*/
 
 #h1-cont h1 {
@@ -333,7 +276,16 @@ input[type="submit"]:focus {
     outline: none;
 }
 
-/*footbal-athelets*/
+
+/*athelets*/
+
+img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30%;
+    width: 150px;
+    padding-left: 40px;
+}
 
 #name {
     text-align: left;
@@ -342,18 +294,18 @@ input[type="submit"]:focus {
     margin-top: 50px;
 }
 
-.box-football {
+.box-athletes {
     display: flex;
     justify-content: left;
     margin-left: 500px;
 }
 
-.box-football img {
+.box-athletes img {
     width: 500px;
     height: 300px;
 }
 
-.box-football table {
+.box-athletes table {
     font-size: 20px;
     border: 1px solid black;
     width: 35%;
@@ -362,24 +314,25 @@ input[type="submit"]:focus {
     margin-left: 60px;
 }
 
-.box-football td {
+.box-athletes td {
     border: 1px solid black;
     padding: 15px;
 }
 
-.box-video-football {
+.box-video {
     display: flex;
     justify-content: left;
     margin-left: 500px;
     margin-bottom: 150px;
 }
 
-#football-text {
+#athletes-text {
     width: 800px;
     font-size: 22px;
     margin-left: 60px;
     text-align: left;
 }
+
 
 /*Books*/
 
@@ -395,15 +348,14 @@ input[type="submit"]:focus {
     margin: auto;
     text-align: center;
     font-family: arial;
-  }
+}
 
-
-  .book-price {
+.book-price {
     color: grey;
     font-size: 25px;
-  }
-  
-  .book-card button {
+}
+
+.book-card button {
     border: 2px;
     outline: 10px;
     padding: 12px;
@@ -414,8 +366,8 @@ input[type="submit"]:focus {
     width: 100%;
     font-size: 18px;
     border-radius: 0;
-  }
-  
-  .book-card button:hover {
+}
+
+.book-card button:hover {
     opacity: 0.7;
-  }
+}
