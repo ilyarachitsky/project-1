@@ -32,12 +32,12 @@ body {
 }
 
 .nav__links li a:hover {
-    color: rgb(179, 51, 244);
+    color: rgb(0, 0, 0);
 }
 
 button {
     padding: 20px 50px;
-    background-color: rgb(203, 118, 245);
+    background-color: rgb(0, 0, 0);
     border: none;
     border-radius: 100px;
     cursor: pointer;
@@ -50,7 +50,7 @@ button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #1d1d1d;
+    color: #828282;
     text-decoration: none;
 }
 
@@ -73,13 +73,15 @@ button:hover {
 }
 
 .box-text-2 {
+    width: 600px;
     text-align: left;
-    font-size: 15px;
+    font-size: 25px;
+    margin-left: 50px;
 }
 
 .img-div img {
-    width: 100%;
-    height: 800px;
+    width: 50%;
+    height: 500px;
 }
 
 .box-container {
@@ -330,3 +332,90 @@ input[type="text"]:focus,
 input[type="submit"]:focus {
     outline: none;
 }
+
+/*footbal-athelets*/
+
+#name {
+    text-align: left;
+    font-size: 30px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.box-football {
+    display: flex;
+    justify-content: left;
+    margin-left: 500px;
+}
+
+.box-football img {
+    width: 500px;
+    height: 300px;
+}
+
+.box-football table {
+    font-size: 20px;
+    border: 1px solid black;
+    width: 35%;
+    height: 300px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.box-football td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.box-video-football {
+    display: flex;
+    justify-content: left;
+    margin-left: 500px;
+    margin-bottom: 150px;
+}
+
+#football-text {
+    width: 800px;
+    font-size: 22px;
+    margin-left: 60px;
+    text-align: left;
+}
+
+/*Books*/
+
+.books {
+    display: flex;
+    margin-bottom: 200px;
+    margin-top: 150px;
+}
+
+.book-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+
+  .book-price {
+    color: grey;
+    font-size: 25px;
+  }
+  
+  .book-card button {
+    border: 2px;
+    outline: 10px;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0;
+  }
+  
+  .book-card button:hover {
+    opacity: 0.7;
+  }
