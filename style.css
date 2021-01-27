@@ -413,4 +413,9 @@
             .video-container {
                 flex-direction: column;
             }
+
+            .books {
+                flex-direction: column;
+            
+            }
         }
